@@ -2,7 +2,7 @@
 // Problem: Convert Binary Number in a Linked List to Integer
 // approach: Traverse through the linked-list using cur, the final value is: for each node in the linked list, value = value*2 + bit value.
 
-public class ListNode {
+class ListNode {
     int val;
     ListNode next;
     ListNode() {}
